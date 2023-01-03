@@ -1,0 +1,16 @@
+.logo {
+    content: url("../../img/logo.svg");
+    transition: all 600ms;
+    max-width: 100px;
+}
+
+.logo:hover {
+    transform: scale(1.025);
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .logo {
+        max-width: initial;
+    }
+}

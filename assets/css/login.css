@@ -1,0 +1,45 @@
+@import url(components/logo.css);
+@import url(components/button.css);
+@import url(components/form.css);
+@import url(components/inputs.css);
+
+.login {
+    contain: content;
+    padding: 3.5rem 2rem 2.5rem;
+}
+
+.login__formulario {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 275px;
+}
+
+.form__label {
+    margin: auto;
+    padding-bottom: 1rem;
+}
+
+.button-entrar {
+    background: #2A7AE4;
+    color: #FFFFFF;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 1rem 1rem;
+    width: 109px;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    .login__formulario {
+        max-width: 412px;
+    }
+
+    .button-entrar {
+        margin-left: 0;
+        margin-right: 0;
+        width: auto;
+    }
+}
